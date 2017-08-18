@@ -1,0 +1,16 @@
+﻿欢迎使用模板俱乐部ERP进销存V3标准版系统
+请按照以下方法安装程序
+1、首先把更目录的erpv3.sql导入到数据库
+2、打开application\config\database.php文件，找到数据库配置字段
+
+如下：
+$db['default']['hostname'] = 'localhost';  //一般默认即可
+$db['default']['username'] = 'root';   //数据库用户名
+$db['default']['password'] = 'root';  //数据库密码
+$db['default']['database'] = 'erp';  //数据库名称
+
+3、访问您的网址  账号为 admin  密码为 istheme.com
+
+4、如果有任何问题，请联系QQ 1159995880  
+
+---------------------END---------------------

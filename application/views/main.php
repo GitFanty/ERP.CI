@@ -83,11 +83,10 @@ $("#username").text(parent.SYSTEM.realName);
         	<a tabid="storage-otherOutbound" data-right="OO_ADD" tabTxt="其他出库" parentOpen="true" rel="pageTab" href="<?php echo site_url('scm/invOi?action=initOi&type=out')?>"><span></span>其他出库</a>
         </li>
         <li class="added-service">
-        	<!--<a tabid="setting-addedServiceList" tabTxt="增值服务" parentOpen="true" rel="pageTab" href="<?php echo site_url('settings/addedServiceList')?>"><span></span>增值服务</a>-->
-			<a href="#" id="feedback"><span></span>增值服务</a>
+        	<a tabid="storage-otherWarehouse" data-right="IO_ADD" tabTxt="其他入库" parentOpen="true" rel="pageTab" href="<?php echo site_url('scm/invOi?action=initOi&type=in')?>"><span></span>生产入库</a>
         </li>
         <li class="feedback">
-        	<a href="#" id="feedback"><span></span>意见反馈</a>
+        	<a tabid="storage-otherOutbound" data-right="OO_ADD" tabTxt="其他出库" parentOpen="true" rel="pageTab" href="<?php echo site_url('scm/invOi?action=initOi&type=out')?>"><span></span>生产出库</a>
         </li>
       </ul>
     </div>
